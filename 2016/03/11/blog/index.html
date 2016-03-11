@@ -94,7 +94,7 @@ hexo是一个简单的静态网站生成器
     motion: true,
     duoshuo: {
       userId: 0,
-      author: 'Author'
+      author: '博主'
     }
   };
 </script>
@@ -102,7 +102,7 @@ hexo是一个简单的静态网站生成器
   <title> 终于配置好自己的博客了 | 生无所息 </title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
 
@@ -157,7 +157,7 @@ hexo是一个简单的静态网站生成器
             
               <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
             
-            Startseite
+            首页
           </a>
         </li>
       
@@ -167,7 +167,7 @@ hexo是一个简单的静态网站生成器
             
               <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
             
-            Archiv
+            归档
           </a>
         </li>
       
@@ -177,7 +177,7 @@ hexo是一个简单的静态网站生成器
             
               <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
             
-            Tags
+            标签
           </a>
         </li>
       
@@ -230,7 +230,7 @@ hexo是一个简单的静态网站生成器
             <span class="post-meta-item-icon">
               <i class="fa fa-calendar-o"></i>
             </span>
-            <span class="post-meta-item-text">Veröffentlicht am</span>
+            <span class="post-meta-item-text">发表于</span>
             <time itemprop="dateCreated" datetime="2016-03-11T20:27:59+08:00" content="2016-03-11">
               2016-03-11
             </time>
@@ -239,6 +239,13 @@ hexo是一个简单的静态网站生成器
           
 
           
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/03/11/blog/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/03/11/blog/" itemprop="commentsCount"></span>
+                </a>
+              </span>
             
           
 
@@ -301,6 +308,10 @@ hexo是一个简单的静态网站生成器
           
   <div class="comments" id="comments">
     
+      <div class="ds-thread" data-thread-key="2016/03/11/blog/"
+           data-title="终于配置好自己的博客了" data-url="http://yoursite.com/2016/03/11/blog/">
+      </div>
+    
   </div>
 
 
@@ -324,10 +335,10 @@ hexo是一个简单的静态网站生成器
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            Inhaltsverzeichnis
+            文章目录
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
-            Übersicht
+            站点概览
           </li>
         </ul>
       
@@ -344,7 +355,7 @@ hexo是一个简单的静态网站生成器
           <div class="site-state-item site-state-posts">
             <a href="/archives">
               <span class="site-state-item-count">1</span>
-              <span class="site-state-item-name">Artikel</span>
+              <span class="site-state-item-name">日志</span>
             </a>
           </div>
           
@@ -409,11 +420,11 @@ hexo是一个简单的静态网站生成器
 </div>
 
 <div class="powered-by">
-  Erstellt mit  <a class="theme-link" href="http://hexo.io">Hexo</a>
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
 </div>
 
 <div class="theme-info">
-  Theme -
+  主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
     NexT.Muse
   </a>
@@ -641,9 +652,28 @@ hexo是一个简单的静态网站生成器
 
   
 
+  
+    
+  
 
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"ludwig123"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
 
   
+    
+  
+
+
 
 
 
